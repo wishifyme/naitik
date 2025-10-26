@@ -12,11 +12,7 @@
       --lav: #e2c8ff;
       --white: #fff;
     }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Inter', sans-serif;
       background: linear-gradient(120deg, var(--peach), var(--lav));
@@ -46,228 +42,45 @@
       box-shadow: 0 4px 12px rgba(214, 51, 132, 0.7);
       transition: background-color 0.3s ease;
     }
-    #music-toggle:hover {
-      background-color: #ad1b68;
-    }
+    #music-toggle:hover { background-color: #ad1b68; }
     #password-section {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background: linear-gradient(135deg, var(--peach), var(--lav));
-      text-align: center;
+      height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+      background: linear-gradient(135deg, var(--peach), var(--lav)); text-align: center;
     }
-    #password-section h2 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 48px;
-      color: #c2185b;
-      margin-bottom: 20px;
-    }
+    #password-section h2 { font-family: 'Great Vibes', cursive; font-size: 48px; color: #c2185b; margin-bottom: 20px; }
     #password-section input {
-      padding: 12px 20px;
-      border: none;
-      border-radius: 30px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      font-size: 18px;
-      text-align: center;
-      outline: none;
+      padding: 12px 20px; border: none; border-radius: 30px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      font-size: 18px; text-align: center; outline: none;
     }
     #password-section button {
-      margin-top: 15px;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 30px;
-      background-color: #d63384;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.3s ease;
+      margin-top: 15px; padding: 12px 25px; border: none; border-radius: 30px;
+      background-color: #d63384; color: white; font-size: 16px; cursor: pointer; transition: all 0.3s ease;
     }
-    #password-section button:hover {
-      background-color: #ad1b68;
-    }
-
-    header {
-      text-align: center;
-      padding: 60px 20px 40px;
-      background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0));
-      position: relative;
-    }
-    header h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 64px;
-      color: #d63384;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 18px;
-      color: #555;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-      text-align: center;
-    }
-    h2 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 48px;
-      color: #c2185b;
-      margin-bottom: 20px;
-    }
-    .journey {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
-      align-items: center;
-    }
+    #password-section button:hover { background-color: #ad1b68; }
+    header { text-align: center; padding: 60px 20px 40px; background: linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)); position: relative; }
+    header h1 { font-family: 'Great Vibes', cursive; font-size: 64px; color: #d63384; margin-bottom: 10px; }
+    header p { font-size: 18px; color: #555; }
+    section { padding: 60px 20px; max-width: 1000px; margin: auto; text-align: center; }
+    h2 { font-family: 'Great Vibes', cursive; font-size: 48px; color: #c2185b; margin-bottom: 20px; }
+    .journey { display: flex; flex-direction: column; gap: 24px; align-items: center; }
     .journey-item {
-      background: rgba(255, 255, 255, 0.6);
-      padding: 20px 30px;
-      border-radius: 20px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-      max-width: 600px;
+      background: rgba(255, 255, 255, 0.6); padding: 20px 30px; border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); max-width: 600px;
     }
-    .reel {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 16px;
-      margin-top: 20px;
-    }
-    .reel img {
-      width: 300px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 16px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-      transition: transform 0.4s ease;
-    }
-    .reel img:hover {
-      transform: scale(1.05);
-    }
-
-    .reel-scroll {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding-bottom: 15px;
-  justify-content: start;
-  align-items: center;
-}
-
-.media-item {
-  width: 200px;
-  height: 320px;
-  object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-  flex-shrink: 0;
-  background: #fff;
-  margin-bottom: 0;
-}
+    .reel-scroll { display: flex; gap: 20px; overflow-x: auto; padding-bottom: 15px; justify-content: start; align-items: center; }
+    .media-item { width: 200px; height: 320px; object-fit: cover; border-radius: 16px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2); flex-shrink: 0; background: #fff; margin-bottom: 0; }
     .message {
-      background: rgba(255, 255, 255, 0.65);
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-      font-size: 20px;
-      line-height: 1.6;
-      color: #444;
+      background: rgba(255, 255, 255, 0.65); border-radius: 20px; padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); font-size: 20px; line-height: 1.6; color: #444;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #555;
-    }
+    footer { text-align: center; padding: 20px; font-size: 14px; color: #555; }
     .heart {
-      position: fixed;
-      bottom: -10px;
-      color: #ff7eb9;
-      font-size: 20px;
-      animation: floatUp 6s linear infinite;
-      opacity: 0.7;
+      position: fixed; bottom: -10px; color: #ff7eb9; font-size: 20px;
+      animation: floatUp 6s linear infinite; opacity: 0.7;
     }
     @keyframes floatUp {
-      0% {
-        transform: translateY(0) scale(1);
-        opacity: 0.7;
-      }
-      100% {
-        transform: translateY(-100vh) scale(1.3);
-        opacity: 0;
-      }
-    }
-
-    /* Special Video Popup Styles */
-    #video-popup-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      background: rgba(0,0,0,0.45);
-      backdrop-filter: blur(6px);
-      display: none;
-      justify-content: center;
-      align-items: center;
-      z-index: 2000;
-    }
-    #video-popup {
-      background: rgba(255,255,255,0.7);
-      border-radius: 16px;
-      width: 50vw;
-      max-width: 800px;
-      aspect-ratio: 16 / 9;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-    #video-popup video {
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-      object-fit: contain;
-      background: #000;
-    }
-    #close-video {
-      position: absolute;
-      bottom: 18px;
-      right: 18px;
-      font-size: 18px;
-      padding: 10px 20px;
-      color: white;
-      background: var(--pink);
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      font-family: 'Inter', sans-serif;
-      transition: background-color 0.2s ease;
-    }
-    #close-video:hover {
-      background: var(--peach);
-      color: #d63384;
-    }
-    #special-video-section button {
-      margin-top: 20px;
-      padding: 12px 30px;
-      font-size: 18px;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      background-color: #d63384;
-      color: white;
-      font-family: 'Great Vibes', cursive;
-      transition: background-color 0.3s ease;
-    }
-    #special-video-section button:hover {
-      background-color: #ad1b68;
+      0% { transform: translateY(0) scale(1); opacity: 0.7; }
+      100% { transform: translateY(-100vh) scale(1.3); opacity: 0; }
     }
   </style>
 </head>
@@ -292,33 +105,19 @@
       <div class="journey-item">💍 Every memory with you, Naitik, is my favorite chapter.</div>
     </div>
   </section>
-
   <section id="photos">
-  <h2>Photo Reel</h2>
-  <div class="reel-scroll">
-    <!-- Images -->
-    <img src="photo 1.jpg" alt="Photo 1" class="media-item" />
-    <img src="photo 2.jpg" alt="Photo 2" class="media-item" />
-    <img src="photo 3.jpg" alt="Photo 3" class="media-item" />
-    <img src="photo 4.jpg" alt="Photo 3" class="media-item" />
-    <img src="photo 5.jpg" alt="Photo 3" class="media-item" />
-    <!-- Videos -->
-    <video controls class="media-item">
-      <source src="video 1.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <video controls class="media-item">
-      <source src="video 2.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <video controls class="media-item">
-      <source src="video 3.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</section>
-
-
+    <h2>Photo Reel</h2>
+    <div class="reel-scroll">
+      <img src="photo 1.jpg" alt="Photo 1" class="media-item" />
+      <img src="photo 2.jpg" alt="Photo 2" class="media-item" />
+      <img src="photo 3.jpg" alt="Photo 3" class="media-item" />
+      <img src="photo 4.jpg" alt="Photo 4" class="media-item" />
+      <img src="photo 5.jpg" alt="Photo 5" class="media-item" />
+      <video controls class="media-item"><source src="video 1.mp4" type="video/mp4" /></video>
+      <video controls class="media-item"><source src="video 2.mp4" type="video/mp4" /></video>
+      <video controls class="media-item"><source src="video 3.mp4" type="video/mp4" /></video>
+    </div>
+  </section>
   <section id="message">
     <h2>Special Message</h2>
     <div class="message">
@@ -329,35 +128,24 @@
       Bas yahi chahti hoon, ki hamari ye dosti hamesha aise hi strong aur pure bani rahe 💞
     </div>
   </section>
-
   <footer>
-  	<center>
+    <center>
       <a href="https://www.instagram.com/wishify.me">
-      <img src="logo.png" alt="Wishify Logo" style="width:64px; height:64px; border-radius:14px;">
+        <img src="logo.png" alt="Wishify Logo" style="width:64px; height:64px; border-radius:14px;">
       </a>
     </center><br>
-    Made with ❤️ by Wishify | <a href="https://instagram.com/wishify.me" target="_blank">@wishify.me</a> | <a href="mailto:wishify.me@gmail.com">wishify.me@gmail.com</a>
+    Made with ❤️ by Wishify |
+    <a href="https://instagram.com/wishify.me" target="_blank">@wishify.me</a> |
+    <a href="mailto:wishify.me@gmail.com">wishify.me@gmail.com</a>
   </footer>
-
   <!-- Music controls -->
   <button id="music-toggle" title="Play/Pause Music">▶ Play Music</button>
   <audio id="background-music" loop>
     <source src="music.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
-
-  <!-- Video popup overlay -->
-  <div id="video-popup-overlay" aria-hidden="true">
-    <div id="video-popup">
-      <video controls>
-        <source src="video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <button id="close-video">Close</button>
-    </div>
-  </div>
-
   <script>
+    // Animated hearts
     const colors = ['#ffb6c1', '#ff9aa2', '#ffd1dc', '#e2c8ff'];
     function createHeart() {
       const heart = document.createElement('div');
@@ -371,6 +159,19 @@
     }
     setInterval(createHeart, 400);
 
+    // Password unlock logic and music button logic
+    function checkPassword() {
+      const input = document.getElementById('password-input').value.trim();
+      if (input === 'naitikji') {
+        document.getElementById('password-section').style.display = 'none';
+        document.querySelectorAll('header, section, footer').forEach(el => el.style.display = 'block');
+        document.getElementById('music-toggle').style.display = 'block';
+      } else {
+        alert('Incorrect password. Try again!');
+      }
+    }
+
+    // Music play/pause logic
     const musicToggle = document.getElementById('music-toggle');
     const music = document.getElementById('background-music');
     let isPlaying = false;
@@ -385,6 +186,8 @@
       }
       isPlaying = !isPlaying;
     });
+
+    // On page hide, pause music for privacy
     document.addEventListener('visibilitychange', () => {
       if (document.hidden && isPlaying) {
         music.pause();
@@ -392,41 +195,6 @@
         isPlaying = false;
       }
     });
-
-     // Special video popup logic
-    const openVideoBtn = document.getElementById('open-video-btn');
-    const videoOverlay = document.getElementById('video-popup-overlay');
-    const closeVideoBtn = document.getElementById('close-video');
-    const mainContent = document.getElementById('main-content');
-
-    openVideoBtn.addEventListener('click', () => {
-      videoOverlay.style.display = 'flex';
-      mainContent.classList.add('popup-blur');
-    });
-    closeVideoBtn.addEventListener('click', () => {
-      videoOverlay.style.display = 'none';
-      mainContent.classList.remove('popup-blur');
-      const video = videoOverlay.querySelector('video');
-      video.pause();
-      video.currentTime = 0;
-    });
-    videoOverlay.addEventListener('click', (e) => {
-      if (e.target === videoOverlay) {
-        closeVideoBtn.click();
-      }
-    });
-
-    function checkPassword() {
-      const input = document.getElementById('password-input').value.trim();
-      if (input === 'naitikji') {
-        document.getElementById('password-section').style.display = 'none';
-        document.querySelectorAll('header, section, footer').forEach(el => el.style.display = 'block');
-        document.getElementById('special-video-section').style.display = 'block';
-        musicToggle.style.display = 'block';
-      } else {
-        alert('Incorrect password. Try again!');
-      }
-    }
   </script>
 </body>
 </html>
